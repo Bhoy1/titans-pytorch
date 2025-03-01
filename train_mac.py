@@ -7,6 +7,7 @@ import torch
 from torch import nn, Tensor
 from torch.nn import functional as F
 from torch.utils.data import DataLoader, Dataset
+import torch.func as function 
 
 from adam_atan2_pytorch import AdoptAtan2
 
